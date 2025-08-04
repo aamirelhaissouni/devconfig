@@ -20,7 +20,7 @@ return {
         liquid = { "prettier" },
         lua = { "stylua" },
         python = { "isort", "black" },
-        C = {"uncrustify"},
+        -- not gonna use right now C = {"uncrustify"},
       },
       format_on_save = {
         lsp_fallback = true,
